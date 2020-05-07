@@ -6,4 +6,4 @@ The main objective was to obtain the highest score by scanning different books t
 
 ## Our heuristic solution
 
-We firstly sorted the books of all the libraries 
+We used a greedy approach. We firstly sorted the libraries based on the signup time and for each library we sorted the books based on the score of the books. We also controlled that the same book wasn't added more than one time. 
