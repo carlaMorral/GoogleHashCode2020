@@ -6,4 +6,7 @@ The main objective was to obtain the highest score by scanning different books t
 
 ## Our heuristic solution
 
-We used a greedy approach. We firstly sorted the libraries based on the signup time and for each library we sorted the books based on the score of the books. We also controlled that the same book wasn't added more than one time. 
+We used a greedy approach. We firstly sorted the libraries based on the signup time and the best possible score as a result of scanning the books of the libraries. We also controlled that the same book wasn't added more than one time. 
+
+## A possible improovement
+What we did was to iterate through each library to add its books after having sorted the libraries based on the signup time. So a possible improovement would be sorting the libraries after every iteration (of a library) because the books inside the other libraries may have changed (i.e, if a book is repeated in multiple libraries)
